@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #582142;
+}
+.calc{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    margin-top: 130px;
+  
+}
+input{
+    grid-column:span 4;
+    border: none;
+    height: 100%;
+    text-align: end;
+    padding: 0 15px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+  outline: none;
+  /* border-radius: 20px; */
+}
+button{
+    background-color: #252525;
+     border: none;
+     outline: none;
+     font-size: 20px;
+     padding: 10px;
+     width: 60px;
+     height: 60px;
+     color: #ccc;
+     font-family: 'Courier New', Courier, monospace;
+}
+button:active{
+    background-color: #582142;
+}
